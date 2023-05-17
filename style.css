@@ -15,7 +15,7 @@
     justify-content: space-between;
     flex-shrink: 0;
     width: 48%;
-    position: absolute;
+    position: relative;
     opacity: 0.5;
     left: 28%;
     /* border-radius: 30px; */
