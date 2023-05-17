@@ -1,0 +1,150 @@
+*
+{
+    box-sizing: border-box;
+    background-color: #4a5a79;
+}
+
+
+.container ul
+{   
+    display: inline-flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    /* background-color: rgba(251, 186, 186, 0.5); */
+    font-size: 2rem;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 48%;
+    position: absolute;
+    opacity: 0.5;
+    left: 28%;
+    /* border-radius: 30px; */
+}
+
+
+.navbar li
+{
+    list-style: none;
+    align-items: center;
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    flex-grow: 1;
+}
+
+.navbar li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 3px 3px;
+    margin: 10px;
+}
+
+.container img
+{
+    width: 100%;
+    height: auto;
+}
+
+h1 a
+{
+    display: flex;
+    color: white;
+    padding: 20px;
+    background-color: #9BA4B5;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+    justify-content: center;
+}
+
+.aboutMe p
+{
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    color: #F1F6F9;
+    padding: 10px;
+    margin: 40px 40px;
+}
+
+.experience-content h2
+{
+    /* background-color: rgb(171, 201, 255); */
+    font-family: 'Inconsolata', monospace;
+    font-size: 35px;
+    color: wheat;
+    text-align: center;
+}
+
+.experience-content p
+{
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    color: #F1F6F9;
+    padding: 10px;
+    margin: 40px 40px;
+}
+
+.skill-content p
+{
+    color: #F1F6F9;
+    padding: 10px;
+    margin: 40px 40px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+}
+
+.contact-info p, a
+{
+    margin-top: 50px ;
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+}
+
+.contact-info a
+{
+    color: #F1F6F9;
+    padding: 10px;
+    margin: 40px 40px;
+    border: 2px solid black;
+}
+
+#red-color
+{
+    color: #F1F6F9;
+    padding: 10px;
+    margin: 40px 40px;
+    border: 2px solid black;
+}
+
+.contact-info a:hover
+{
+    background-color: rgba(186, 255, 255,0.5);
+}
+
+#red-color:hover
+{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+footer p
+{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-style: italic;
+    padding: 20px;
+    margin-top: 10%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: 'Inconsolata', monospace;
+}
+
+@media(max-width: 640px)
+{
+    .container ul
+    {
+        flex-flow: column;
+        flex-shrink: 0;
+    }
+}
